@@ -4,8 +4,65 @@
     <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
         <item name="cornerSize">50%</item>
     </style>
-
-    <style name="AnalogousTwoTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="ThemeOne" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="materialAlertDialogTheme">@style/Example.MaterialDialog</item>
+        <item name="colorPrimary">@color/one_md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/one_md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/one_md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/one_md_theme_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/one_md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/one_md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/one_md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/one_md_theme_light_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/one_md_theme_light_tertiary</item>
+        <item name="colorOnTertiary">@color/one_md_theme_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/one_md_theme_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/one_md_theme_light_onTertiaryContainer</item>
+        <item name="colorError">@color/one_md_theme_light_error</item>
+        <item name="colorErrorContainer">@color/one_md_theme_light_errorContainer</item>
+        <item name="colorOnError">@color/one_md_theme_light_onError</item>
+        <item name="colorOnErrorContainer">@color/one_md_theme_light_onErrorContainer</item>
+        <item name="android:colorBackground">@color/one_md_theme_light_background</item>
+        <item name="colorOnBackground">@color/one_md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/one_md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/one_md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/one_md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/one_md_theme_light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/one_md_theme_light_outline</item>
+        <item name="colorOnSurfaceInverse">@color/one_md_theme_light_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/one_md_theme_light_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/one_md_theme_light_inversePrimary</item>
+    </style>
+    <style name="ThemeTwo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="materialAlertDialogTheme">@style/Example.MaterialDialog</item>
+        <item name="colorPrimary">@color/two_md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/two_md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/two_md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/two_md_theme_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/two_md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/two_md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/two_md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/two_md_theme_light_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/two_md_theme_light_tertiary</item>
+        <item name="colorOnTertiary">@color/two_md_theme_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/two_md_theme_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/two_md_theme_light_onTertiaryContainer</item>
+        <item name="colorError">@color/two_md_theme_light_error</item>
+        <item name="colorErrorContainer">@color/two_md_theme_light_errorContainer</item>
+        <item name="colorOnError">@color/two_md_theme_light_onError</item>
+        <item name="colorOnErrorContainer">@color/two_md_theme_light_onErrorContainer</item>
+        <item name="android:colorBackground">@color/two_md_theme_light_background</item>
+        <item name="colorOnBackground">@color/two_md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/two_md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/two_md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/two_md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/two_md_theme_light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/two_md_theme_light_outline</item>
+        <item name="colorOnSurfaceInverse">@color/two_md_theme_light_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/two_md_theme_light_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/two_md_theme_light_inversePrimary</item>
+    </style>
+    <style name="ThemeThree" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="materialAlertDialogTheme">@style/Example.MaterialDialog</item>
         <item name="colorPrimary">@color/analogous_two_md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/analogous_two_md_theme_light_onPrimary</item>
@@ -49,8 +106,7 @@
         <item name="colorSurfaceInverse">@color/analogous_two_md_theme_light_inverseSurface</item>
         <item name="colorPrimaryInverse">@color/analogous_two_md_theme_light_inversePrimary</item>
     </style>
-
-    <style name="TriadicTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="ThemeFour" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="materialAlertDialogTheme">@style/Example.MaterialDialog</item>
         <item name="colorPrimary">@color/triadic_md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/triadic_md_theme_light_onPrimary</item>
@@ -83,65 +139,6 @@
         <item name="colorPrimaryInverse">@color/triadic_md_theme_light_inversePrimary</item>
     </style>
 
-    <style name="ThemeOne" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="materialAlertDialogTheme">@style/Example.MaterialDialog</item>
-        <item name="colorPrimary">@color/one_md_theme_light_primary</item>
-        <item name="colorOnPrimary">@color/one_md_theme_light_onPrimary</item>
-        <item name="colorPrimaryContainer">@color/one_md_theme_light_primaryContainer</item>
-        <item name="colorOnPrimaryContainer">@color/one_md_theme_light_onPrimaryContainer</item>
-        <item name="colorSecondary">@color/one_md_theme_light_secondary</item>
-        <item name="colorOnSecondary">@color/one_md_theme_light_onSecondary</item>
-        <item name="colorSecondaryContainer">@color/one_md_theme_light_secondaryContainer</item>
-        <item name="colorOnSecondaryContainer">@color/one_md_theme_light_onSecondaryContainer</item>
-        <item name="colorTertiary">@color/one_md_theme_light_tertiary</item>
-        <item name="colorOnTertiary">@color/one_md_theme_light_onTertiary</item>
-        <item name="colorTertiaryContainer">@color/one_md_theme_light_tertiaryContainer</item>
-        <item name="colorOnTertiaryContainer">@color/one_md_theme_light_onTertiaryContainer</item>
-        <item name="colorError">@color/one_md_theme_light_error</item>
-        <item name="colorErrorContainer">@color/one_md_theme_light_errorContainer</item>
-        <item name="colorOnError">@color/one_md_theme_light_onError</item>
-        <item name="colorOnErrorContainer">@color/one_md_theme_light_onErrorContainer</item>
-        <item name="android:colorBackground">@color/one_md_theme_light_background</item>
-        <item name="colorOnBackground">@color/one_md_theme_light_onBackground</item>
-        <item name="colorSurface">@color/one_md_theme_light_surface</item>
-        <item name="colorOnSurface">@color/one_md_theme_light_onSurface</item>
-        <item name="colorSurfaceVariant">@color/one_md_theme_light_surfaceVariant</item>
-        <item name="colorOnSurfaceVariant">@color/one_md_theme_light_onSurfaceVariant</item>
-        <item name="colorOutline">@color/one_md_theme_light_outline</item>
-        <item name="colorOnSurfaceInverse">@color/one_md_theme_light_inverseOnSurface</item>
-        <item name="colorSurfaceInverse">@color/one_md_theme_light_inverseSurface</item>
-        <item name="colorPrimaryInverse">@color/one_md_theme_light_inversePrimary</item>
-    </style>
-
-    <style name="ThemeTwo" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="materialAlertDialogTheme">@style/Example.MaterialDialog</item>
-        <item name="colorPrimary">@color/two_md_theme_light_primary</item>
-        <item name="colorOnPrimary">@color/two_md_theme_light_onPrimary</item>
-        <item name="colorPrimaryContainer">@color/two_md_theme_light_primaryContainer</item>
-        <item name="colorOnPrimaryContainer">@color/two_md_theme_light_onPrimaryContainer</item>
-        <item name="colorSecondary">@color/two_md_theme_light_secondary</item>
-        <item name="colorOnSecondary">@color/two_md_theme_light_onSecondary</item>
-        <item name="colorSecondaryContainer">@color/two_md_theme_light_secondaryContainer</item>
-        <item name="colorOnSecondaryContainer">@color/two_md_theme_light_onSecondaryContainer</item>
-        <item name="colorTertiary">@color/two_md_theme_light_tertiary</item>
-        <item name="colorOnTertiary">@color/two_md_theme_light_onTertiary</item>
-        <item name="colorTertiaryContainer">@color/two_md_theme_light_tertiaryContainer</item>
-        <item name="colorOnTertiaryContainer">@color/two_md_theme_light_onTertiaryContainer</item>
-        <item name="colorError">@color/two_md_theme_light_error</item>
-        <item name="colorErrorContainer">@color/two_md_theme_light_errorContainer</item>
-        <item name="colorOnError">@color/two_md_theme_light_onError</item>
-        <item name="colorOnErrorContainer">@color/two_md_theme_light_onErrorContainer</item>
-        <item name="android:colorBackground">@color/two_md_theme_light_background</item>
-        <item name="colorOnBackground">@color/two_md_theme_light_onBackground</item>
-        <item name="colorSurface">@color/two_md_theme_light_surface</item>
-        <item name="colorOnSurface">@color/two_md_theme_light_onSurface</item>
-        <item name="colorSurfaceVariant">@color/two_md_theme_light_surfaceVariant</item>
-        <item name="colorOnSurfaceVariant">@color/two_md_theme_light_onSurfaceVariant</item>
-        <item name="colorOutline">@color/two_md_theme_light_outline</item>
-        <item name="colorOnSurfaceInverse">@color/two_md_theme_light_inverseOnSurface</item>
-        <item name="colorSurfaceInverse">@color/two_md_theme_light_inverseSurface</item>
-        <item name="colorPrimaryInverse">@color/two_md_theme_light_inversePrimary</item>
-    </style>
 
     <style name="Example.MaterialDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
         <item name="materialAlertDialogTitleTextStyle">@style/Example.MaterialDialog.Title</item>

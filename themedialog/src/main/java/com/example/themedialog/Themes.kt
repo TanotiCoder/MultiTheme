@@ -41,8 +41,8 @@ class Themes {
         when (getTheme(context, "Color")) {
             0 -> context.setTheme(R.style.ThemeOne)
             1 -> context.setTheme(R.style.ThemeTwo)
-            2 -> context.setTheme(R.style.AnalogousTwoTheme)
-            3 -> context.setTheme(R.style.TriadicTheme)
+            2 -> context.setTheme(R.style.ThemeThree)
+            3 -> context.setTheme(R.style.ThemeFour)
         }
     }
 

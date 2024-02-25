@@ -5,86 +5,6 @@
         <item name="cornerSize">50%</item>
     </style>
 
-    <style name="AnalogousTwoTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
-        <item name="materialAlertDialogTheme">@style/Example.MaterialDialog</item>
-        <item name="colorPrimary">@color/analogous_two_md_theme_dark_primary</item>
-        <item name="colorOnPrimary">@color/analogous_two_md_theme_dark_onPrimary</item>
-        <item name="colorPrimaryContainer">@color/analogous_two_md_theme_dark_primaryContainer
-        </item>
-        <item name="colorOnPrimaryContainer">@color/analogous_two_md_theme_dark_onPrimaryContainer
-        </item>
-        <item name="colorSecondary">@color/analogous_two_md_theme_dark_secondary</item>
-        <item name="colorOnSecondary">@color/analogous_two_md_theme_dark_onSecondary</item>
-        <item name="colorSecondaryContainer">@color/analogous_two_md_theme_dark_secondaryContainer
-        </item>
-        <item name="colorOnSecondaryContainer">
-            @color/analogous_two_md_theme_dark_onSecondaryContainer
-        </item>
-        <item name="colorTertiary">@color/analogous_two_md_theme_dark_tertiary</item>
-        <item name="colorOnTertiary">@color/analogous_two_md_theme_dark_onTertiary</item>
-        <item name="colorTertiaryContainer">@color/analogous_two_md_theme_dark_tertiaryContainer
-        </item>
-        <item name="colorOnTertiaryContainer">@color/analogous_two_md_theme_dark_onTertiaryContainer
-        </item>
-        <item name="colorError">@color/analogous_two_md_theme_dark_error</item>
-        <item name="colorErrorContainer">@color/analogous_two_md_theme_dark_errorContainer</item>
-        <item name="colorOnError">@color/analogous_two_md_theme_dark_onError</item>
-        <item name="colorOnErrorContainer">@color/analogous_two_md_theme_dark_onErrorContainer
-        </item>
-        <item name="android:colorBackground">@color/analogous_two_md_theme_dark_background</item>
-        <item name="colorOnBackground">@color/analogous_two_md_theme_dark_onBackground</item>
-        <item name="colorSurface">@color/analogous_two_md_theme_dark_surface</item>
-        <item name="colorOnSurface">@color/analogous_two_md_theme_dark_onSurface</item>
-        <item name="colorSurfaceVariant">@color/analogous_two_md_theme_dark_surfaceVariant</item>
-        <item name="colorOnSurfaceVariant">@color/analogous_two_md_theme_dark_onSurfaceVariant
-        </item>
-        <item name="colorOutline">@color/analogous_two_md_theme_dark_outline</item>
-        <item name="colorOnSurfaceInverse">@color/analogous_two_md_theme_dark_inverseOnSurface
-        </item>
-        <item name="colorSurfaceInverse">@color/analogous_two_md_theme_dark_inverseSurface</item>
-        <item name="colorPrimaryInverse">@color/analogous_two_md_theme_dark_inversePrimary</item>
-    </style>
-
-    <style name="TriadicTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
-        <item name="materialAlertDialogTheme">@style/Example.MaterialDialog</item>
-        <item name="colorPrimary">@color/triadic_md_theme_dark_primary</item>
-        <item name="colorOnPrimary">@color/triadic_md_theme_dark_onPrimary</item>
-        <item name="colorPrimaryContainer">@color/triadic_md_theme_dark_primaryContainer
-        </item>
-        <item name="colorOnPrimaryContainer">@color/triadic_md_theme_dark_onPrimaryContainer
-        </item>
-        <item name="colorSecondary">@color/triadic_md_theme_dark_secondary</item>
-        <item name="colorOnSecondary">@color/triadic_md_theme_dark_onSecondary</item>
-        <item name="colorSecondaryContainer">@color/triadic_md_theme_dark_secondaryContainer
-        </item>
-        <item name="colorOnSecondaryContainer">
-            @color/triadic_md_theme_dark_onSecondaryContainer
-        </item>
-        <item name="colorTertiary">@color/triadic_md_theme_dark_tertiary</item>
-        <item name="colorOnTertiary">@color/triadic_md_theme_dark_onTertiary</item>
-        <item name="colorTertiaryContainer">@color/triadic_md_theme_dark_tertiaryContainer
-        </item>
-        <item name="colorOnTertiaryContainer">@color/triadic_md_theme_dark_onTertiaryContainer
-        </item>
-        <item name="colorError">@color/triadic_md_theme_dark_error</item>
-        <item name="colorErrorContainer">@color/triadic_md_theme_dark_errorContainer</item>
-        <item name="colorOnError">@color/triadic_md_theme_dark_onError</item>
-        <item name="colorOnErrorContainer">@color/triadic_md_theme_dark_onErrorContainer
-        </item>
-        <item name="android:colorBackground">@color/triadic_md_theme_dark_background</item>
-        <item name="colorOnBackground">@color/triadic_md_theme_dark_onBackground</item>
-        <item name="colorSurface">@color/triadic_md_theme_dark_surface</item>
-        <item name="colorOnSurface">@color/triadic_md_theme_dark_onSurface</item>
-        <item name="colorSurfaceVariant">@color/triadic_md_theme_dark_surfaceVariant</item>
-        <item name="colorOnSurfaceVariant">@color/triadic_md_theme_dark_onSurfaceVariant
-        </item>
-        <item name="colorOutline">@color/triadic_md_theme_dark_outline</item>
-        <item name="colorOnSurfaceInverse">@color/triadic_md_theme_dark_inverseOnSurface
-        </item>
-        <item name="colorSurfaceInverse">@color/triadic_md_theme_dark_inverseSurface</item>
-        <item name="colorPrimaryInverse">@color/triadic_md_theme_dark_inversePrimary</item>
-    </style>
-
     <style name="ThemeOne" parent="Theme.AppCompat.Light">
         <item name="materialAlertDialogTheme">@style/Example.MaterialDialog</item>
         <item name="colorPrimary">@color/one_md_theme_dark_primary</item>
@@ -143,5 +63,85 @@
         <item name="colorOnSurfaceInverse">@color/two_md_theme_dark_inverseOnSurface</item>
         <item name="colorSurfaceInverse">@color/two_md_theme_dark_inverseSurface</item>
         <item name="colorPrimaryInverse">@color/two_md_theme_dark_inversePrimary</item>
+    </style>
+
+    <style name="ThemeThree" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="materialAlertDialogTheme">@style/Example.MaterialDialog</item>
+        <item name="colorPrimary">@color/analogous_two_md_theme_dark_primary</item>
+        <item name="colorOnPrimary">@color/analogous_two_md_theme_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/analogous_two_md_theme_dark_primaryContainer
+        </item>
+        <item name="colorOnPrimaryContainer">@color/analogous_two_md_theme_dark_onPrimaryContainer
+        </item>
+        <item name="colorSecondary">@color/analogous_two_md_theme_dark_secondary</item>
+        <item name="colorOnSecondary">@color/analogous_two_md_theme_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/analogous_two_md_theme_dark_secondaryContainer
+        </item>
+        <item name="colorOnSecondaryContainer">
+            @color/analogous_two_md_theme_dark_onSecondaryContainer
+        </item>
+        <item name="colorTertiary">@color/analogous_two_md_theme_dark_tertiary</item>
+        <item name="colorOnTertiary">@color/analogous_two_md_theme_dark_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/analogous_two_md_theme_dark_tertiaryContainer
+        </item>
+        <item name="colorOnTertiaryContainer">@color/analogous_two_md_theme_dark_onTertiaryContainer
+        </item>
+        <item name="colorError">@color/analogous_two_md_theme_dark_error</item>
+        <item name="colorErrorContainer">@color/analogous_two_md_theme_dark_errorContainer</item>
+        <item name="colorOnError">@color/analogous_two_md_theme_dark_onError</item>
+        <item name="colorOnErrorContainer">@color/analogous_two_md_theme_dark_onErrorContainer
+        </item>
+        <item name="android:colorBackground">@color/analogous_two_md_theme_dark_background</item>
+        <item name="colorOnBackground">@color/analogous_two_md_theme_dark_onBackground</item>
+        <item name="colorSurface">@color/analogous_two_md_theme_dark_surface</item>
+        <item name="colorOnSurface">@color/analogous_two_md_theme_dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/analogous_two_md_theme_dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/analogous_two_md_theme_dark_onSurfaceVariant
+        </item>
+        <item name="colorOutline">@color/analogous_two_md_theme_dark_outline</item>
+        <item name="colorOnSurfaceInverse">@color/analogous_two_md_theme_dark_inverseOnSurface
+        </item>
+        <item name="colorSurfaceInverse">@color/analogous_two_md_theme_dark_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/analogous_two_md_theme_dark_inversePrimary</item>
+    </style>
+
+    <style name="ThemeFour" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="materialAlertDialogTheme">@style/Example.MaterialDialog</item>
+        <item name="colorPrimary">@color/triadic_md_theme_dark_primary</item>
+        <item name="colorOnPrimary">@color/triadic_md_theme_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/triadic_md_theme_dark_primaryContainer
+        </item>
+        <item name="colorOnPrimaryContainer">@color/triadic_md_theme_dark_onPrimaryContainer
+        </item>
+        <item name="colorSecondary">@color/triadic_md_theme_dark_secondary</item>
+        <item name="colorOnSecondary">@color/triadic_md_theme_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/triadic_md_theme_dark_secondaryContainer
+        </item>
+        <item name="colorOnSecondaryContainer">
+            @color/triadic_md_theme_dark_onSecondaryContainer
+        </item>
+        <item name="colorTertiary">@color/triadic_md_theme_dark_tertiary</item>
+        <item name="colorOnTertiary">@color/triadic_md_theme_dark_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/triadic_md_theme_dark_tertiaryContainer
+        </item>
+        <item name="colorOnTertiaryContainer">@color/triadic_md_theme_dark_onTertiaryContainer
+        </item>
+        <item name="colorError">@color/triadic_md_theme_dark_error</item>
+        <item name="colorErrorContainer">@color/triadic_md_theme_dark_errorContainer</item>
+        <item name="colorOnError">@color/triadic_md_theme_dark_onError</item>
+        <item name="colorOnErrorContainer">@color/triadic_md_theme_dark_onErrorContainer
+        </item>
+        <item name="android:colorBackground">@color/triadic_md_theme_dark_background</item>
+        <item name="colorOnBackground">@color/triadic_md_theme_dark_onBackground</item>
+        <item name="colorSurface">@color/triadic_md_theme_dark_surface</item>
+        <item name="colorOnSurface">@color/triadic_md_theme_dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/triadic_md_theme_dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/triadic_md_theme_dark_onSurfaceVariant
+        </item>
+        <item name="colorOutline">@color/triadic_md_theme_dark_outline</item>
+        <item name="colorOnSurfaceInverse">@color/triadic_md_theme_dark_inverseOnSurface
+        </item>
+        <item name="colorSurfaceInverse">@color/triadic_md_theme_dark_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/triadic_md_theme_dark_inversePrimary</item>
     </style>
 </resources>
