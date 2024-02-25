@@ -1,3 +1,4 @@
+![20240225_155225](https://github.com/TanotiCoder/MultiTheme/assets/81159555/c866e7fd-347b-4c67-8a21-d19ca2c872e8)
 # Multi Theme Based app
 
 #### Your app supports multiple themes. Here are the four seed colors you can use:
