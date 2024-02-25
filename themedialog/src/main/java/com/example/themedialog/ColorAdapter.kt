@@ -15,14 +15,6 @@ class ColorAdapter(
     private val colorOnClick: (value: Int) -> Unit
 ) : RecyclerView.Adapter<ColorAdapter.ViewHolder>() {
 
-
-//    fun setCheckedPosition(value: Resources.Theme) {
-//        val lastCheckedPosition: Int = checkedPosition
-//        checkedPosition = value.
-//        notifyItemChanged(lastCheckedPosition)
-//        notifyItemChanged(checkedPosition)
-//    }
-
     init {
         setHasStableIds(true)
     }

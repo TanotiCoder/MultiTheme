@@ -11,17 +11,20 @@
   <component name="ChangeListManager">
     <list default="true" id="e23fd2c6-3bfc-43bf-ad39-346d42ed5603" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themedialog/src/main/java/com/example/themedialog/Themes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/themedialog/src/main/java/com/example/themedialog/Themes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themedialog/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/themedialog/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themedialog/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/themedialog/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themedialog/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/themedialog/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/multitheme/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/multitheme/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themedialog/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/themedialog/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themedialog/src/main/java/com/example/themedialog/ColorAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/themedialog/src/main/java/com/example/themedialog/ColorAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themedialog/src/main/java/com/example/themedialog/ThemeChooserDialogBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/themedialog/src/main/java/com/example/themedialog/ThemeDialogBuilder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themedialog/src/main/res/layout/item_color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/themedialog/src/main/res/layout/item_color.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themedialog/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/themedialog/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\DELL\.android\avd\Pixel_2_API_31.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[055523107I033798]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -36,16 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/Android Project/MultiTheme/MultiTheme",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Android Project/MultiTheme/MultiTheme&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="Multi_Theme.app.main" />

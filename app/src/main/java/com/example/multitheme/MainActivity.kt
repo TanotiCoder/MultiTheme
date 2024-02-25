@@ -3,7 +3,7 @@ package com.example.multitheme
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.multitheme.databinding.ActivityMainBinding
-import com.example.themedialog.ThemeChooserDialogBuilder
+import com.example.themedialog.ThemeDialogBuilder
 import com.example.themedialog.Themes
 
 
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val button = binding.changeTheme
 
         button.setOnClickListener {
-            ThemeChooserDialogBuilder(this) {
+            ThemeDialogBuilder(this) {
                 recreate()
             }
                 .create()

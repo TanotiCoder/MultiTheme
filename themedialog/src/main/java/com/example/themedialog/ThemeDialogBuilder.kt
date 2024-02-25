@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.example.themedialog.databinding.DialogLayoutBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
-class ThemeChooserDialogBuilder(private val context: Context, private val recreate: () -> Unit) {
+class ThemeDialogBuilder(private val context: Context, private val recreate: () -> Unit) {
     private lateinit var builder: MaterialAlertDialogBuilder
     private lateinit var colorAdapter: ColorAdapter
     private val binding = DialogLayoutBinding.inflate(LayoutInflater.from(context))
@@ -44,7 +44,6 @@ class ThemeChooserDialogBuilder(private val context: Context, private val recrea
             }
         )
         binding.toggleButton.addOnButtonCheckedListener { toggleButton, checkedId, isChecked ->
-            val a = binding.buttonDay
             if (isChecked) {
                 when (checkedId) {
                     R.id.buttonSystem -> {
@@ -62,8 +61,6 @@ class ThemeChooserDialogBuilder(private val context: Context, private val recrea
             }
         }
 
-
-
         builder = MaterialAlertDialogBuilder(context).setView(binding.root)
         builder.setTitle(R.string.choose_theme)
             .setIcon(R.drawable.ic_round_brush)
@@ -80,7 +77,6 @@ class ThemeChooserDialogBuilder(private val context: Context, private val recrea
     }
 
     private fun modeAction(value: Int) {
-//        Toast.makeText(context, value, Toast.LENGTH_SHORT).show()
         Log.i("mode", value.toString())
         Themes().setModeValue(value, context)
         recreate()
@@ -89,7 +85,4 @@ class ThemeChooserDialogBuilder(private val context: Context, private val recrea
     fun create(): AlertDialog {
         return builder.create()
     }
-
 }
-
-
